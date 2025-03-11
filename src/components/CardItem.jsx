@@ -12,8 +12,8 @@ import DeleteButton from './DeleteButton';
  * @param {String} props.body - Body for the note
  * @param {Date} props.createdAt - Date created for the note
  * @param {Boolean} props.isArchived - Boolean for conditional rendering
- * 
- * 
+ *
+ *
  */
 
 const CardItem = ({
