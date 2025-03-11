@@ -12,8 +12,8 @@ import DeleteButton from './DeleteButton';
  * @param {String} props.body - Body for the note
  * @param {Date} props.createdAt - Date created for the note
  * @param {Boolean} props.isArchived - Boolean for conditional rendering
- * 
- * 
+ *
+ *
  */
 
 const CardItem = ({
@@ -36,7 +36,7 @@ const CardItem = ({
             </p>
         </div>
 
-        <div className="flex">
+        <div className="flex mb-2 gap-2">
             <DeleteButton onDelete={onDelete} id={id} />
             <ArchiveButton onArchive={onArchive} id={id} isArchived={isArchived} />
         </div>
