@@ -36,7 +36,7 @@ const CardItem = ({
             </p>
         </div>
 
-        <div className="flex">
+        <div className="flex mb-2 gap-2">
             <DeleteButton onDelete={onDelete} id={id} />
             <ArchiveButton onArchive={onArchive} id={id} isArchived={isArchived} />
         </div>
