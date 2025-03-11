@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import { getInitialData } from './utils';
 import ActiveList from './components/ActiveList';
 import ArchivedList from './components/ArchiveList';

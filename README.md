@@ -1,8 +1,25 @@
-# React + Vite
+# Personal Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+Personal Notes is a simple web application built using **React**, **Tailwind CSS**, and **Vite** as the build tool. Currently, all notes are stored locally in the browser.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📝 Add new notes
+- 📂 Display active and archived notes
+- 🗑️ Delete notes
+- 🔍 Search notes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application allows users to **write, save, archive, delete, and search personal notes** easily.
+
+## ⚙️ Tech Stack
+- **React**: Frontend library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Vite**: Next-generation, fast build tool for development and production.
+
+## 🔮 Future Updates
+Planned updates for the future:
+- 📂 Implement a database to store notes permanently
+- ⚠️ Add alert/confirmation messages for actions like creating, archiving, and deleting notes
+- 🔢 Implement pagination for better note management
+
+Stay tuned for more improvements! 🚀
